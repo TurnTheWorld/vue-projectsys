@@ -1,0 +1,165 @@
+/* 覆盖mint-ui的primary颜色，改为自己UI的主题色 */
+
+/*.mint-indicator-wrapper{
+  background:rgba(69, 200, 255, 1);
+}*/
+
+.form-error{
+  color: red;
+  font-size: 12px;
+}
+.mint-searchbar{
+  padding: 4px 5px;
+  background-color: #26a2ff;
+}
+.my-click:active {
+  position:relative;
+  top:2px;
+  left: 1px;
+}
+
+.bb{
+  border-bottom: 1px solid #eee;
+}
+.bbb{
+  border-bottom: 1px solid #26a2ff;
+}
+textarea{
+  resize:none
+}
+
+.auth{
+  font-weight: 700;
+}
+.pass{
+  color: #08f308;;
+}
+.notPass{
+  color: #f00;
+}
+.todoPass{
+  color: #26a2ff;
+}
+.waitPass{
+  color: #fc8303;
+}
+
+.unRead{
+  position: absolute;
+  left: 5px;
+  top: 9px;
+}
+
+.unRead::before{
+  content: " ";
+  border: 4px solid red;/*设置红色*/
+  border-radius:5px;/*设置圆角*/
+  position: absolute;
+  z-index: 1;
+  right: 0%;
+  margin-right: -5px;
+  margin-top: -5px;
+}
+li{
+  list-style: none;
+}
+
+.notice-item{
+  position: relative;
+  color: #999;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.notice-item p{
+  padding: 0;
+  margin: 0;
+  padding: 2px;
+}
+.notice-item h5{
+  padding: 0;
+  margin: 10px 0;
+}
+.notice-title{
+  color: #666;
+}
+.notice-content{
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+.notice-date{
+  font-size: 12px;
+  color: #999;
+  letter-spacing: 0;
+}
+.notice-enter{
+  color: #26a2ff;
+  position: absolute;
+  right: 0px;
+  top: 30%;
+}
+.uploader-example {
+  /*padding: 0px 15px;*/
+  margin: 0px auto 0;
+  font-size: 12px;
+  background-color: #fff;
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, .4);*/
+}
+.uploader-example .uploader-btn {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  background-color: #26a2ff;
+  color: #fff;
+  border-color: #26a2ff;
+
+  right: 0;
+  position: absolute;
+  top: -40px;
+  /* left: 0; */
+  height: 23px;
+  line-height: 23px;
+}
+.uploader-example .uploader-list {
+  max-height: 440px;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.file-list{
+  position: relative;
+  margin-bottom: 10px;
+}
+.file-list-item{
+  margin: 0 0 10px 0;
+  padding: 0;
+  border-bottom: 1px solid #eee;
+}
+.file-list-item li{
+  height: 36px;
+  line-height: 36px;
+  color:  #26a2ff;;
+  background-color: #fff;
+}
+.file-list-item li>span{
+  display: inline-block;
+  width: 12%;
+  font-size: 14px;
+}
+.file-list-item li>span.file-name{
+  color: #009688;
+  width: 70%;
+  text-align: left;
+  overflow: hidden;
+  float: left;
+  white-space:nowrap;
+  font-size: 12px;
+}
+.file-delete{
+  color: red;
+  float: right;
+}
+.file-list-item li>span.file-download{
+  float: right;
+  color: #26a2ff;
+}
